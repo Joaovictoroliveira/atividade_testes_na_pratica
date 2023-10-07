@@ -17,9 +17,3 @@ WORKDIR /app
 
 # Cópia do projeto para o container
 COPY composer.json composer.json
-
-# Instalação das dependências do composer
-RUN composer install
-
-# Comando padrão para executar o PHPUnit
-CMD ["phpunit"]
