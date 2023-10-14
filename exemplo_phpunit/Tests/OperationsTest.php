@@ -1,11 +1,10 @@
 <?php
 
-namespace Tests;
-
 use PHPUnit\Framework\TestCase;
 use Src\Operations;
 
-class OperationsTest extends TestCase {
+class OperationsTest extends TestCase
+{
 
     public function setUp(): void
     {
